@@ -5,7 +5,9 @@
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest",
-		"lint": "eslint --ext .js ."
+		"lint": "eslint --ext .js .",
+		"runandroid": "react-native run-android",
+		"runios": "react-native run-ios"
 	},
 	"dependencies": {
 		"firebase": "^4.13.1",
