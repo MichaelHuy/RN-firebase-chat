@@ -7,7 +7,7 @@
 		"test": "jest",
 		"lint": "eslint --ext .js .",
 		"runandroid": "react-native run-android",
-		"runios": "react-native run-ios"
+		"runios": "react-native run-ios --configuration Debug --simulator='iPhone 8'  -- --reset-cache"
 	},
 	"dependencies": {
 		"firebase": "^5.7.2",
